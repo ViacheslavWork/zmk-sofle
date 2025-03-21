@@ -30,7 +30,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - A
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-  - D
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - F
   - G
   - $$mdi:arrow-left-bold$$
