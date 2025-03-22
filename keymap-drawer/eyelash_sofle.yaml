@@ -61,8 +61,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: number}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: arrow}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - workspace
+  - {t: '$$mdi:backspace$$', h: workspace}
+  - RIGHT GUI
   - {t: '-', s: _}
   - {t: '=', s: +}
   number:
@@ -256,8 +256,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
