@@ -79,7 +79,7 @@
 &kp GRAVE  &kp F1  &kp F2          &kp F3  &kp F4        &kp F5    &mmv MOVE_UP     &kp F6     &kp F7      &kp F8       &kp F9     &kp F10          &trans
 &trans     &trans  &msc SCRL_DOWN  &trans  &msc SCRL_UP  &trans    &mmv MOVE_DOWN   &kp PG_UP  &kp HOME    &kp UP       &kp END    &kp PRINTSCREEN  &trans
 &trans     &trans  &trans          &trans  &trans        &trans    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT    &kp DOWN     &kp RIGHT  &kp K_UNDO       &trans
-&trans     &trans  &trans          &trans  &trans        &trans    &mmv MOVE_RIGHT  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp INS    &kp K_REDO       &trans
+&trans     &trans  &trans          &trans  &trans        &trans    &mmv MOVE_RIGHT  &kp RC(X)  &kp K_COPY  &kp K_PASTE  &kp RC(Z)  &kp K_REDO       &trans
 &none      &trans  &trans          &trans  &trans        &trans    &mkp LCLK        &trans     &trans      &trans       &trans     &trans
             >;
 
@@ -89,11 +89,11 @@
 
         workspace {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans      &trans      &trans      &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &kp RG(F7)  &kp RG(F8)  &kp RG(F9)  &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RA(RC(LEFT))   &kp RG(F4)  &kp RG(F5)  &kp RG(F6)  &kp RS(RC(HOME))  &kp RS(RG(LEFT_ARROW))
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RA(RC(RIGHT))  &kp RG(F1)  &kp RG(F2)  &kp RG(N3)  &kp RS(RC(END))   &kp RS(RG(RIGHT))
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans      &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                  &trans      &trans      &trans      &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                  &kp RG(F7)  &kp RG(F8)  &kp RG(F9)  &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RA(RC(RIGHT))       &kp RG(F4)  &kp RG(F5)  &kp RG(F6)  &kp RS(RC(END))   &kp RS(RG(RIGHT))
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RA(RC(LEFT_ARROW))  &kp RG(F1)  &kp RG(F2)  &kp RG(N3)  &kp RS(RC(HOME))  &kp RS(RG(LEFT))
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                  &trans      &trans      &trans      &trans
             >;
         };
 
