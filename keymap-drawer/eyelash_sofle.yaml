@@ -80,11 +80,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F7
-  - F8
-  - F9
-  - F12
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '-', s: _}
   - {t: '7', s: '&'}
@@ -93,11 +93,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - F4
-  - F5
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F6
-  - F11
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - +
   - {t: '4', s: $}
@@ -106,11 +106,11 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - F1
-  - F2
-  - F3
+  - F11
   - F10
+  - F9
+  - F8
+  - F7
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '0', s: )}
   - '1'
