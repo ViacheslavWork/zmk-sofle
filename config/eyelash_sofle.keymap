@@ -89,11 +89,11 @@
 
         workspace {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans            &trans      &trans      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &kp RG(N7)        &kp RG(N8)  &kp RG(N9)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RA(RC(LEFT))   &kp RG(N4)        &kp RG(N5)  &kp RG(N6)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RA(RC(RIGHT))  &kp RG(NUMBER_1)  &kp RG(N2)  &kp RG(N3)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans            &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans      &trans      &trans      &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &kp RG(F7)  &kp RG(F8)  &kp RG(F9)  &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RA(RC(LEFT))   &kp RG(F4)  &kp RG(F5)  &kp RG(F6)  &kp RS(RC(HOME))  &kp RS(RG(LEFT_ARROW))
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RA(RC(RIGHT))  &kp RG(F1)  &kp RG(F2)  &kp RG(N3)  &kp RS(RC(END))   &kp RS(RG(RIGHT))
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans      &trans      &trans      &trans
             >;
         };
 
