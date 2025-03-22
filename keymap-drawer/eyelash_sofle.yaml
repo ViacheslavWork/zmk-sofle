@@ -245,7 +245,7 @@ layers:
   - AltGr+Ctl+$$mdi:arrow-left-bold$$
   - Gui+F1
   - Gui+F2
-  - {t: Gui+3, s: Gui+#}
+  - Gui+F3
   - Sft+Ctl+HOME
   - Sft+Gui+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
