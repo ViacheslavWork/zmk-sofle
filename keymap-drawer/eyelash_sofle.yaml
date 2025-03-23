@@ -100,9 +100,9 @@ layers:
   - F6
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - +
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
+  - {t: '4', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '5', h: '$$mdi:apple-keyboard-shift$$', s: '%'}
+  - {t: '6', h: '$$mdi:apple-keyboard-option$$'}
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
