@@ -15,7 +15,7 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - Q
+  - '&q_tog_4'
   - W
   - E
   - R
@@ -275,7 +275,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT BLE
-  - $$mdi:bluetooth-off$$
+  - {t: LAYER0, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&studio_unlock'
   - {t: '$$mdi:backup-restore$$', type: bootloader}
@@ -292,7 +292,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&studio_unlock'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - RGB SAD
   - RGB HUD
