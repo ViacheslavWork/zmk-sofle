@@ -275,7 +275,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT BLE
-  - {t: LAYER0, h: toggle}
+  - {t: service, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&studio_unlock'
   - {t: '$$mdi:backup-restore$$', type: bootloader}
