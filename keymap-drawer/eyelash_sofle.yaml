@@ -103,8 +103,8 @@ layers:
   - {t: '4', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '5', h: '$$mdi:apple-keyboard-shift$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '{'
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F10
@@ -116,8 +116,8 @@ layers:
   - '1'
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
+  - {t: /, s: '?'}
   - '*'
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -168,7 +168,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - UNDO
+  - Sft+F6
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -178,10 +178,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+X
-  - COPY
-  - PASTE
+  - Ctl+C
+  - Ctl+V
   - Ctl+Z
-  - REDO
+  - Ctl+Sft+Z
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
