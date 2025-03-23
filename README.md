@@ -1,6 +1,3 @@
-- [Chinese](README_CH.md)
-- [English](README.md)
-
 # Update List
 
 - 2024/12/21
