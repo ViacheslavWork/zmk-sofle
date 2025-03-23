@@ -74,8 +74,8 @@
             bindings = <
 &trans  &trans   &trans   &trans  &trans  &trans    &none  &trans     &none                        &trans               &trans                   &trans            &trans
 &trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5    &none  &kp MINUS  &kp N7                       &kp N8               &kp N9                   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &kp F12  &trans   &trans  &trans  &kp F6    &none  &kp PLUS   &thh RIGHT_CONTROL NUMBER_4  &thh RIGHT_SHIFT N5  &thh RIGHT_ALT NUMBER_6  &kp SLASH         &trans
-&trans  &kp F11  &kp F10  &kp F9  &kp F8  &kp F7    &none  &kp N0     &kp NUMBER_1                 &kp N2               &kp N3                   &kp ASTERISK      &trans
+&trans  &kp F12  &trans   &trans  &trans  &kp F6    &none  &kp PLUS   &thh RIGHT_CONTROL NUMBER_4  &thh RIGHT_SHIFT N5  &thh RIGHT_ALT NUMBER_6  &kp LEFT_BRACE    &kp RIGHT_BRACE
+&trans  &kp F11  &kp F10  &kp F9  &kp F8  &kp F7    &none  &kp N0     &kp NUMBER_1                 &kp N2               &kp N3                   &kp SLASH         &kp ASTERISK
 &trans  &trans   &trans   &trans  &trans  &trans    &none  &trans     &trans                       &trans               &trans                   &trans
             >;
 
@@ -84,11 +84,11 @@
 
         arrow {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2          &kp F3  &kp F4        &kp F5    &none  &kp F6     &kp F7      &kp F8       &kp F9     &kp F10          &trans
-&trans     &trans  &msc SCRL_DOWN  &trans  &msc SCRL_UP  &trans    &none  &kp PG_UP  &kp HOME    &kp UP       &kp END    &kp PRINTSCREEN  &trans
-&trans     &trans  &trans          &trans  &trans        &trans    &none  &kp PG_DN  &kp LEFT    &kp DOWN     &kp RIGHT  &kp K_UNDO       &trans
-&trans     &trans  &trans          &trans  &trans        &trans    &none  &kp RC(X)  &kp K_COPY  &kp K_PASTE  &kp RC(Z)  &kp K_REDO       &trans
-&none      &trans  &trans          &trans  &trans        &trans    &none  &trans     &trans      &trans       &trans     &trans
+&kp GRAVE  &kp F1  &kp F2          &kp F3  &kp F4        &kp F5    &none  &kp F6     &kp F7     &kp F8     &kp F9     &kp F10          &trans
+&trans     &trans  &msc SCRL_DOWN  &trans  &msc SCRL_UP  &trans    &none  &kp PG_UP  &kp HOME   &kp UP     &kp END    &kp PRINTSCREEN  &trans
+&trans     &trans  &trans          &trans  &trans        &trans    &none  &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &kp RS(F6)       &trans
+&trans     &trans  &trans          &trans  &trans        &trans    &none  &kp RC(X)  &kp RC(C)  &kp RC(V)  &kp RC(Z)  &kp RC(RS(Z))    &trans
+&none      &trans  &trans          &trans  &trans        &trans    &none  &trans     &trans     &trans     &trans     &trans
             >;
 
             display-name = "arrow";
