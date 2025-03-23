@@ -233,7 +233,7 @@ layers:
   - Gui+F4
   - Gui+F5
   - Gui+F6
-  - Sft+Ctl+END
+  - Sft+Gui+PgDn
   - Sft+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -246,7 +246,7 @@ layers:
   - Gui+F1
   - Gui+F2
   - Gui+F3
-  - Sft+Ctl+HOME
+  - Sft+Gui+PgUp
   - Sft+Gui+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
