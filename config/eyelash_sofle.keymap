@@ -60,11 +60,11 @@
 
         layer0 {
             bindings = <
-&kp GRAVE   &kp N1     &kp N2           &kp N3             &kp N4               &kp N5       &none  &kp N6       &kp N7                &kp N8              &kp N9            &kp N0     &kp BACKSPACE
-&kp TAB     &q_tog_4   &kp W            &kp E              &kp R                &kp T        &none  &kp Y        &kp U                 &kp I               &kp O             &kp P      &kp BSLH
-&kp ESCAPE  &kp A      &thh LEFT_ALT S  &thh LEFT_SHIFT D  &thh LEFT_CONTROL F  &kp G        &none  &kp H        &thh RIGHT_CONTROL J  &thh RIGHT_SHIFT K  &thh RIGHT_ALT L  &kp SEMI   &kp APOS
-&kp LSHFT   &kp Z      &kp X            &kp C              &kp V                &kp B        &none  &kp N        &kp M                 &kp COMMA           &kp DOT           &kp FSLH   &kp RIGHT_SHIFT
-&none       &kp LCTRL  &kp LEFT_GUI     &kp LEFT_ALT       &kp DEL              &lt 1 RET    &none  &lt 2 SPACE  &lt 3 BACKSPACE       &kp RIGHT_GUI       &kp MINUS         &kp EQUAL
+&kp GRAVE   &kp N1     &kp N2           &kp N3             &kp N4               &kp N5       &none  &kp N6       &kp N7                &kp N8              &kp N9            &kp N0       &kp BACKSPACE
+&kp TAB     &q_tog_4   &kp W            &kp E              &kp R                &kp T        &none  &kp Y        &kp U                 &kp I               &kp O             &kp P        &kp BSLH
+&kp ESCAPE  &kp A      &thh LEFT_ALT S  &thh LEFT_SHIFT D  &thh LEFT_CONTROL F  &kp G        &none  &kp H        &thh RIGHT_CONTROL J  &thh RIGHT_SHIFT K  &thh RIGHT_ALT L  &kp SEMI     &kp APOS
+&kp LSHFT   &kp Z      &kp X            &kp C              &kp V                &kp B        &none  &kp N        &kp M                 &kp COMMA           &kp DOT           &lt 3 SLASH  &kp RIGHT_SHIFT
+&none       &kp LCTRL  &kp LEFT_GUI     &kp LEFT_ALT       &kp DEL              &lt 1 RET    &none  &lt 2 SPACE  &kp BACKSPACE         &kp RIGHT_GUI       &kp MINUS         &kp EQUAL
             >;
 
             display-name = "LAYER0";
@@ -97,11 +97,11 @@
 
         workspace {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &none  &trans                  &trans      &trans      &trans      &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp RA(F4)              &kp RG(F7)  &kp RG(F8)  &kp RG(F9)  &kp RS(RG(L))          &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp RA(RC(RIGHT))       &kp RG(F4)  &kp RG(F5)  &kp RG(F6)  &kp RS(RG(PAGE_DOWN))  &kp RS(RG(RIGHT))
-&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp RA(RC(LEFT_ARROW))  &kp RG(F1)  &kp RG(F2)  &kp RG(F3)  &kp RS(RG(PAGE_UP))    &kp RS(RG(LEFT))
-&trans  &trans  &trans  &trans  &trans  &trans    &none  &trans                  &trans      &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &none  &trans                  &trans               &trans                 &trans                  &trans                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp RA(F4)              &kp RG(F7)           &kp RG(F8)             &kp RG(F9)              &trans                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp RA(RC(RIGHT))       &kp RG(F4)           &kp RG(F5)             &kp RG(F6)              &trans                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp RA(RC(LEFT_ARROW))  &kp RG(F1)           &kp RG(F2)             &kp RG(F3)              &trans                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp RS(RG(L))           &kp RS(RG(PAGE_UP))  &kp RS(RG(PAGE_DOWN))  &kp RS(RG(LEFT_ARROW))  &kp RS(RG(RIGHT_ARROW))
             >;
         };
 
