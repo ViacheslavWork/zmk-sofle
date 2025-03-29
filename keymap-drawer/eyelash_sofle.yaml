@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: /, h: workspace, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
@@ -61,7 +61,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: number}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-space$$', h: arrow}
-  - {t: '$$mdi:backspace$$', h: workspace}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - RIGHT GUI
   - {t: '-', s: _}
   - {t: '=', s: +}
@@ -220,7 +220,7 @@ layers:
   - Gui+F7
   - Gui+F8
   - Gui+F9
-  - Sft+Gui+L
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -233,8 +233,8 @@ layers:
   - Gui+F4
   - Gui+F5
   - Gui+F6
-  - Sft+Gui+PgDn
-  - Sft+Gui+$$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -246,8 +246,8 @@ layers:
   - Gui+F1
   - Gui+F2
   - Gui+F3
-  - Sft+Gui+PgUp
-  - Sft+Gui+$$mdi:arrow-left-bold$$
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -255,11 +255,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Gui+L
+  - Sft+Gui+PgUp
+  - Sft+Gui+PgDn
+  - Sft+Gui+$$mdi:arrow-left-bold$$
+  - Sft+Gui+$$mdi:arrow-right-bold$$
   service:
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
