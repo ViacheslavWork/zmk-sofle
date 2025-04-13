@@ -95,11 +95,11 @@
 
         workspace {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &none  &trans                  &trans               &trans                 &trans                  &trans                   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp RA(F4)              &kp RG(F7)           &kp RG(F8)             &kp RG(F9)              &trans                   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp RA(RC(RIGHT))       &kp RG(F4)           &kp RG(F5)             &kp RG(F6)              &trans                   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp RA(RC(LEFT_ARROW))  &kp RG(F1)           &kp RG(F2)             &kp RG(F3)              &trans                   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &none  &kp RS(RG(L))           &kp RS(RG(PAGE_UP))  &kp RS(RG(PAGE_DOWN))  &kp RS(RG(LEFT_ARROW))  &kp RS(RG(RIGHT_ARROW))
+&trans  &trans  &trans          &trans          &trans           &trans      &none  &trans                  &trans               &trans                 &trans                  &trans                   &trans
+&trans  &trans  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans      &none  &kp RA(F4)              &kp RG(F7)           &kp RG(F8)             &kp RG(F9)              &trans                   &trans
+&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans      &none  &kp RA(RC(RIGHT))       &kp RG(F4)           &kp RG(F5)             &kp RG(F6)              &trans                   &trans
+&trans  &trans  &trans          &trans          &trans           &trans      &none  &kp RA(RC(LEFT_ARROW))  &kp RG(F1)           &kp RG(F2)             &kp RG(F3)              &trans                   &trans
+&trans  &trans  &trans          &mkp MB2        &mkp MB3         &mkp MB1    &none  &kp RS(RG(L))           &kp RS(RG(PAGE_UP))  &kp RS(RG(PAGE_DOWN))  &kp RS(RG(LEFT_ARROW))  &kp RS(RG(RIGHT_ARROW))
             >;
         };
 
