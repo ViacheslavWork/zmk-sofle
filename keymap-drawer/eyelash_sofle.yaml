@@ -60,9 +60,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: number}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-tab$$', h: arrow}
   - {t: '$$mdi:keyboard-space$$', h: arrow}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-space$$', h: arrow}
+  - $$mdi:keyboard-tab$$
   - {t: '-', s: _}
   - {t: '=', s: +}
   number:
