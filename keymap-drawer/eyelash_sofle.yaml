@@ -15,7 +15,7 @@ layers:
   - )
   - {t: ']', s: '}'}
   - $$mdi:keyboard-tab$$
-  - '&q_tog_4'
+  - Q
   - W
   - E
   - {t: R, h: brackets}
@@ -261,7 +261,7 @@ layers:
   - Sft+Gui+$$mdi:arrow-left-bold$$
   - Sft+Gui+$$mdi:arrow-right-bold$$
   service:
-  - BT CLR ALL
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -455,3 +455,7 @@ layers:
   - _
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [0, 51]
+  k: {t: service, h: toggle}
+  l: [LAYER0, service]
